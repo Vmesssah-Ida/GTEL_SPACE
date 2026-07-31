@@ -43,8 +43,8 @@ GTEL SPACE est né des besoins :
 |---|--------|-------------|--------|
 | 1 | **Authentification & Rôles** | Connexion sécurisée, gestion des utilisateurs et permissions par rôle (president, visiteur, administrateur, cell_com) | Prévu |
 | 2 | **Galeries et photos** | publication et gestion des photos |  Prévu |
-| 3 | **Filiere et UEs** | Catalogue des produits et plats proposés, avec catégories, prix et disponibilité |  Prévu |
-| 4 | **Bibliotheque de parrainnage** | Prise de commande, suivi en temps réel, génération de factures et reçus |  Prévu |
+| 3 | **Filiere et UEs** | Catalogue des matieres dispensées, avec biographie des professeurs qui les dispensent |  Prévu |
+| 4 | **Bibliotheque de parrainnage** | Dossier de parrainage de chaque niveaux |  Prévu |
 | 5 | **Origine du club Gtel** | Suivi des activites du club Gtel et de ses Origines | Prévu |
 | 6 | **Administration /Back office** | Gestion du site | Prévu |
 | 7 | **Annonces et Actualites** | Publication et gestion des annonces et des aatualites| Prévu |
@@ -69,13 +69,13 @@ GTEL_SPACE/
 │   │   ├── admin.py
 │   │   └── templates/authentification/
 │   │
-│   ├── Galeries/                     # Module 2 — Recettes
-│   ├── UEs/                     # Module 3 — Produits
-│   ├── Commandes/                    # Module 4 — Commandes & Facturation
-│   ├── Parrainage/                   # Module 5 — Inventaire & Alertes Stock
-│   ├── Origine/                           # Module 6 — Ressources Humaines & Paie
-│   ├── Administration/                    # Module 7 — Dashboard & Rapports
-│   ├── Base_SPACE.sql           # Base de données du restaurant
+│   ├── Galeries/                    
+│   ├── UEs/                   
+│   ├── Annonces/                   
+│   ├── Parrainage/                 
+│   ├── Origine/                           
+│   ├── Administration/                   
+│   ├── Base_SPACE.sql           # Base de données du site
 │   ├── static/                       # Fichiers statiques (CSS, JS, images), prevu
 │   ├── templates/                    # Templates HTML globaux 
 │   └── manage.py
